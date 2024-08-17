@@ -1,0 +1,16 @@
+first = float(input("Enter first Number =>  "))
+sec = float(input("Enter second Number => "))
+opr = str(input("Enter operation (+, -, *, /) => "))
+
+if opr == "+":
+    total = first + sec   
+elif opr == "-":
+    total = first -sec
+elif opr == "*":
+    total = first * sec
+elif opr == "/":
+    total = first / sec
+else:
+    total = str("Please Enter a Valid Operation")
+
+print (total)    
